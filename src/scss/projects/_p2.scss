@@ -1,0 +1,31 @@
+.project-2 {
+  display: grid;
+  place-items: center;
+  font-size: 10rem;
+  font-family: "Franklin Gothic Medium";
+
+  .container {
+    text-align: center;
+    width: 100%;
+  }
+
+  .text {
+    line-height: 0.86;
+    color: #fff;
+    letter-spacing: -10px;
+    text-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+
+  }
+  .textblock1 {
+    z-index: 1;
+    background: #ff5c72;
+  }
+  .textblock2 {
+    z-index: 2;
+    background: #b8ff5c;
+  }
+  .textblock3 {
+    z-index: 3;
+    background: #5f5cff;
+  }
+}
