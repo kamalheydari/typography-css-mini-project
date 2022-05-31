@@ -1,0 +1,15 @@
+html {
+  font-size: 0.625rem;
+  @include responsive(sm) {
+    font-size: 0.687rem;
+  }
+  @include responsive(md) {
+    font-size: 0.75rem;
+  }
+  @include responsive(lg) {
+    font-size: 0.812rem;
+  }
+  @include responsive(lg) {
+    font-size: 0.875rem;
+  }
+}
